@@ -5,11 +5,9 @@ let number = 0;
 
 document.querySelector("#typewriter").textContent = "";
 
-document.addEventListener("click", start);
+document.querySelector("button").addEventListener("click", start);
 
 function start() {
-  console.log(letters[number]);
-
   document.removeEventListener("click", start);
 
   document.querySelector("#typewriter").append(letters[number]);
@@ -18,13 +16,9 @@ function start() {
 }
 
 function addNumber() {
-  if (number < 43) {
+  if (number < text.length - 1) {
     number++;
 
     start();
   }
 }
-
-// textcontent = "";
-// append(text[0]);
-// append(text[1]);

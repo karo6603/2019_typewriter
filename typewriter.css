@@ -1,3 +1,12 @@
 .typewritten {
-    font-family: 'Special Elite', cursive;        
+  font-family: "Special Elite", cursive;
+}
+
+button {
+  border: 1px solid grey;
+  padding: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  background-color: whitesmoke;
+  box-shadow: 10px 10px 22px -3px rgba(0, 0, 0, 0.37);
 }
